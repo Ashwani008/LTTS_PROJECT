@@ -56,3 +56,12 @@
  * From any state, Timer can go to TIMER_DELETED state.
  * Once in TIMER_DELETED state, Timer must be destroyed, it cannot be reused again.
  * When Timer moves across states, we need to update certain properties tracking variables of the Timer.
+
+## Features
+Our TIMER library would allows us to do : 
+ * PAUSE, CANCEL, RESUME, DELETE, RESTART, RESCHEDULE, BACK-OFF TIMER.
+ * Simplified - Interface(Hiding the complex Data structures).
+ * Open up the scope for more complex Timers development.
+
+## Cost
+The Library will be free of cost and will be available for all the people who wants to use the functions. But, in case, if someone wants to develop an application based on the library, where they will be requiring the functionality of the functions, we will be charging cost based on the requirement and ownership of the application. 
