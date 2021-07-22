@@ -39,5 +39,7 @@
  * timer_delete() -> Delete the TIMER data structure.
  
  We will be using the above 4 APIs as building blocks to build our own custom TIMER Library.
+ 
+ ![Detailed Explanation of Research](Research_Timers.pdf)
 
  
