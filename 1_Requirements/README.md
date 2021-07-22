@@ -25,16 +25,16 @@
    * They are triggered at exponentially placed temporal points.
    * Send re-entry event at t = 1, t = 2, t = 4, t = 8, t = 16, ..... so on.
    * Used in protocols such as TCP.
- * LINUX Enabled APIs will provide us the basic foundations regarding how to implement a TIMER and then we will  uild up from there to design the TIMER library which will give the developer full control over timers.
- * We will study about LINUX inbuilt POSIX compliant TIMER APIs and build our own custom more controllable TIMER Library on top of those.
- * We will be implementing all the three types of TIMERS mentioned above.
+ LINUX Enabled APIs will provide us the basic foundations regarding how to implement a TIMER and then we will  uild up from there to design the TIMER library which will give the developer full control over timers.
+ We will study about LINUX inbuilt POSIX compliant TIMER APIs and build our own custom more controllable TIMER Library on top of those.
+ We will be implementing all the three types of TIMERS mentioned above.
 
 ## Research
- * POSIX provides four basic APIs to manipulate timers on UNIX compliance platforms.
+ POSIX provides four basic APIs to manipulate timers on UNIX compliance platforms.
  * timer_create() -> Create a TIMER data structure(But do not fire it).
  * timer_settime() -> Used to start/stop the timers depending on the arguments.
  * timer_gettime() -> Returns the time remaining for the timer to fire.
  * timer_delete() -> Delete the TIMER data structure.
- * We will be using the above 4 APIs as building blocks to build our own custom TIMER Library.
+ We will be using the above 4 APIs as building blocks to build our own custom TIMER Library.
 
  
