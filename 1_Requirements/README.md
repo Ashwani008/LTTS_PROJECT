@@ -25,6 +25,7 @@
    * They are triggered at exponentially placed temporal points.
    * Send re-entry event at t = 1, t = 2, t = 4, t = 8, t = 16, ..... so on.
    * Used in protocols such as TCP.
+   
  LINUX Enabled APIs will provide us the basic foundations regarding how to implement a TIMER and then we will  uild up from there to design the TIMER library which will give the developer full control over timers.
  We will study about LINUX inbuilt POSIX compliant TIMER APIs and build our own custom more controllable TIMER Library on top of those.
  We will be implementing all the three types of TIMERS mentioned above.
