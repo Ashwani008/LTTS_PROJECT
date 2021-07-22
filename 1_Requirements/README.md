@@ -52,3 +52,7 @@
   * Resume the Timer - TIMER_RESUMED state
 
 ![Timer States](Timer_States.png)
+
+ * From any state, Timer can go to TIMER_DELETED state.
+ * Once in TIMER_DELETED state, Timer must be destroyed, it cannot be reused again.
+ * When Timer moves across states, we need to update certain properties tracking variables of the Timer.
