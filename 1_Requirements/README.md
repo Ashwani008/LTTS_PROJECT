@@ -86,3 +86,48 @@ The Library will be free of cost and will be available for all the people who wa
 ## How:
 * Proper Documentation will be provided regarding the usage of APIs present in our Library. It will be available in the GITHUB.
 
+## Detailed Requirements
+### High Level Requirements
+|      ID          |Description                          |Status                         |
+|----------------|-------------------------------|-----------------------------|
+|HR_01|PAUSE Timer|Implemented|
+|HR_02|RESUME Timer|Implemented|
+|HR_03|RESTART Timer|Implemented|
+|HR_04|RESCHEDULE Timer|Implemented|
+|HR_05|DELETE Timer|Implemented|
+|HR_06|CANCEL Timer|Implemented|
+|HR_07|Get Remaining Time|Implemented|
+|HR_08|Print Timer State|Implemented|
+|HR_09|Routing Table|Future|
+|HR_10|Synchronised Wheel Timer|Future|
+
+### Low Level Requirements
+|      ID          |Description                          |  HLR_ID  |Status               |
+|----------------|-------------------------------|----------|-----------------------------|
+|LR_01|timer_get_current_state() API|HR_01|Implemented|
+|LR_02|timer_get_remaining_time() API|HR_01|Implemented|
+|LR_03|resurrect_timer() API|HR_01|Implemented|
+|LR_04|timer_set_state() API|HR_01|Implemented|
+|LR_05|timer_get_current_state() API|HR_02|Implemented|
+|LR_06|timer_fill_itimerspec() API|HR_02|Implemented|
+|LR_07|resurrect_timer() API|HR_02|Implemented|
+|LR_08|timer_set_state() API|HR_02|Implemented|
+|LR_09|cancel_timer() API|HR_03|Implemented|
+|LR_10|timer_fill_itimerspec() API|HR_03|Implemented|
+|LR_11|resurrect_timer() API|HR_03|Implemented|
+|LR_12|timer_set_state() API|HR_03|Implemented|
+|LR_13|timer_get_current_state() API|HR_04|Implemented|
+|LR_14|cancel_timer() API|HR_04|Implemented|
+|LR_15|timer_fill_itimerspec() API|HR_04|Implemented|
+|LR_16|resurrect_timer() API|HR_04|Implemented|
+|LR_17|timer_set_state() API|HR_04|Implemented|
+|LR_18|timer_delete() API|HR_05|Implemented|
+|LR_19|timer_set_state() API|HR_05|Implemented|
+|LR_20|timer_get_current_state() API|HR_06|Implemented|
+|LR_21|timer_fill_itimerspec() API|HR_06|Implemented|
+|LR_22|resurrect_timer() API|HR_06|Implemented|
+|LR_23|timer_set_state() API|HR_06|Implemented|
+|LR_24|timer_state() API|HR_07|Implemented|
+|LR_25|timer_get_time() API|HR_07|Implemented|
+|LR_26|timer_get_time() API|HR_08|Implemented|
+|LR_27|timer_get_current_state() API|HR_08|Implemented|
