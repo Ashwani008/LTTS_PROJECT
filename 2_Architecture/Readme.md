@@ -18,4 +18,4 @@
 
 
 ### Low Level Structural Diagram
-![Low Level Structural Diagram](https://github.com/Ashwani008/LTTS_Mini_Project/blob/main/2.Architecture/Structure%20Diagram/Low%20Level%20Structural%20Diagram.png)
+![Low Level Structural Diagram](https://github.com/Ashwani008/LTTS_PROJECT/blob/main/2_Architecture/Structure%20Diagram/Low%20Level%20Structure%20Diagram.png)
