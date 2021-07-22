@@ -12,15 +12,15 @@
     #### Defining/ Scheduling the computation.
   * One of the most common programming concept that you would come across is TIMERS.
  ### Types of TIMERS
-  #### ONE SHOT TIMERS
+  #### 1.ONE SHOT TIMERS
    * These are used when a Application needs to do some work only once in future.
    * They are triggered only once.
    * For Example, Delete X after 10 sec.
-  #### PERIODIC TIMERS
+  #### 2.PERIODIC TIMERS
    * These are used when a Application needs to do some work periodically at regular intervals.
    * They are triggered at regular intervals.
    * For Example, Send HELLO at an interval of 5 sec for 100 sec.
-  #### EXPONENTIAL BACKOFF TIMERS
+  #### 3.EXPONENTIAL BACKOFF TIMERS
    * It is a special case of periodic timers.
    * They are triggered at exponentially placed temporal points.
    * Send re-entry event at t = 1, t = 2, t = 4, t = 8, t = 16, ..... so on.
