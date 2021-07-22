@@ -32,10 +32,12 @@
 
 ## Research
  POSIX provides four basic APIs to manipulate timers on UNIX compliance platforms.
+ 
  * timer_create() -> Create a TIMER data structure(But do not fire it).
  * timer_settime() -> Used to start/stop the timers depending on the arguments.
  * timer_gettime() -> Returns the time remaining for the timer to fire.
  * timer_delete() -> Delete the TIMER data structure.
+ 
  We will be using the above 4 APIs as building blocks to build our own custom TIMER Library.
 
  
