@@ -26,7 +26,7 @@
    * Send re-entry event at t = 1, t = 2, t = 4, t = 8, t = 16, ..... so on.
    * Used in protocols such as TCP.
    
- LINUX Enabled APIs will provide us the basic foundations regarding how to implement a TIMER and then we will  uild up from there to design the TIMER library which will give the developer full control over timers.
+ LINUX Enabled APIs will provide us the basic foundations regarding how to implement a TIMER and then we will build up from there to design the TIMER library which will give the developer full control over timers.
  We will study about LINUX inbuilt POSIX compliant TIMER APIs and build our own custom more controllable TIMER Library on top of those.
  We will be implementing all the three types of TIMERS mentioned above.
 
@@ -42,4 +42,13 @@
  
  Detailed Report is given here -> [Research](Research_Timers.pdf)
 
- 
+## Defining the system
+ ### Timer States
+  * Crete a Timer, timer_create() - TIMER_INIT state(Disalarmed Timer)
+  * Running the Timer, timer_settime() - TIMER_RUNNING state
+  * Doesn't delete/ free up the internal data structure or memory occupied by the Timer - TIMER_CANCELLED state
+  * Permanently delete the Timer - TIMER_DELETED state
+  * Pause the Timer - TIMER_PAUSED state
+  * Resume the Timer - TIMER_RESUMED state
+
+![Timer States](Timer_States.png)
