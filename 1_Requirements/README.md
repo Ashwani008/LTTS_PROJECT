@@ -64,4 +64,25 @@ Our TIMER library would allows us to do :
  * Open up the scope for more complex Timers development.
 
 ## Cost
-The Library will be free of cost and will be available for all the people who wants to use the functions. But, in case, if someone wants to develop an application based on the library, where they will be requiring the functionality of the functions, we will be charging cost based on the requirement and ownership of the application. 
+The Library will be free of cost and will be available for all the people who wants to use the functions. But, in case, if someone wants to develop an application based on the library, where they will be requiring the functionality of the functions, we will be charging cost based on the requirement and ownership of the application.
+
+## SWOT Analysis
+![SWOT Analysis](swot_analysis.png)
+
+# 4W&#39;s and 1&#39;H
+
+## Who:
+* Any Software developer who wants to use TIMERS in their application or in their project.
+
+## What:
+* It's a custom more controllable TIMER Library which will give the developer full control over timers.
+
+## When:
+* If any Software developer wants to use TIMERS in their application or in their project.
+
+## Where:
+* The Library will be available on GITHUB.
+
+## How:
+* Proper Documentation will be provided regarding the usage of APIs present in our Library. It will be available in the GITHUB.
+
