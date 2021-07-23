@@ -1,1 +1,3 @@
-
+Build | Code Quality | Unity
+------|----------|-------
+[![C/C++ CI](https://github.com/Ashwani008/LTTS_PROJECT/blob/main/.github/workflows/c-cpp.yml/badge.svg)](https://github.com/Ashwani008/LTTS_PROJECT/blob/main/.github/workflows/c-cpp.yml) | [![Static Cppcheck](https://github.com/Ashwani008/LTTS_PROJECT/blob/main/.github/workflows/cppcheck.yml/badge.svg)](https://github.com/Ashwani008/LTTS_PROJECT/blob/main/.github/workflows/cppcheck.yml) [![Dynamic Valgrind](https://github.com/Ashwani008/LTTS_PROJECT/blob/main/.github/workflows/CodeQuality_Dynamic.yml/badge.svg)](https://github.com/Ashwani008/LTTS_PROJECT/blob/main/.github/workflows/CodeQuality_Dynamic.yml)| [![Unity - Unit Testing](https://github.com/Ashwani008/LTTS_PROJECT/blob/main/.github/workflows/unity.yml/badge.svg)](https://github.com/Ashwani008/LTTS_PROJECT/blob/main/.github/workflows/unity.yml)
