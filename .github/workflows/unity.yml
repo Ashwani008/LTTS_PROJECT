@@ -14,4 +14,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: make
-      run: make -C 4_Testing/ test_timerlib_main.c
+      run: make -C 4_Testing/ run
