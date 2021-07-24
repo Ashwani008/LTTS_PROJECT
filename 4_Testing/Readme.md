@@ -4,7 +4,7 @@
 
 | **Test ID** | **Description**                                              | **Exp I/P** | **Exp O/P** | **Actual Out** |**Type Of Test**  |    
 |-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
-|  H_01       |Check if Linked List is created or not                        | (1). NULL Pointer (2). Unique id (3). First name (4). Last name (5). Height (6). Weight (7). Age  (8). Insurance Status (9). vaccine code| Pointer to head node | PASS | Requirement based|
+|  H_01       |Check if Timer is created or not                        | (1). Call back function name (2). Unique id (3). First name (4). Last name (5). Height (6). Weight (7). Age  (8). Insurance Status (9). vaccine code| Pointer to head node | PASS | Requirement based|
 |  H_01_01       |Check LL initialized from a file                           | (1). Head Pointer (2). File Pointer| LL should be initilized from a file|PASS|Scenario/Technical |
 |  H_02   |Check Insertion of new data in list| (1). Head Pointer (2). Unique id (3). First name (4). Last name (5). Height (6). Weight (7). Age  (8). Insurance Status (9). vaccine code| SUCCESS |SUCCESS|Requirement based |
 | H_02_01 | Check if during insertion id gets stored in file | (1). File name (2). file mode (3). File Pointer | SUCCESS | SUCCESS | Requirement based |
