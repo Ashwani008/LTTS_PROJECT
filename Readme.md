@@ -18,18 +18,17 @@ Folder             | Description
 
 SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`267636` | Anthony Rajiv Francis  | F_01, F_02, F_03, F_04, F_05, F_06, F_07, F_08, F_09   | 14     | 7   |13  |13
-`271502` | Ashwani Kumar Dubey  | F_01, F_02, F_03, F_04, F_05, F_06, F_07, F_08, F_09   | 14     | 7   |13  |13  
+`267636` | Anthony Rajiv Francis  | F_01, F_02, F_03, F_04, F_05, F_06, F_07, F_08   | 14     | 7   |13  |13
+`271502` | Ashwani Kumar Dubey  | F_01, F_02, F_03, F_04, F_05, F_06, F_07, F_08   | 14     | 7   |13  |13  
    
 
 | Feature Id | Feature |
 | -----------|---------|
-|F_01| Option to load older saved data |
-|F_02| Save data to file if only new data is added |
-|F_03| Update data in list and file(if in file) |
-|F_04| Deleting record automatically updates Record file and Index File |
-|F_05| New records gets saved in file at program shut down |
-|F_06| Before program shut down all memory is freed and clean |
-|F_07| Used Binary File System for quick access to files |
-|F_08| Search of Data is possible from both List and file |
-|F_09| Dynamic memory allocation and deallocation implemented |
+|F_01| Pauses the Timer |
+|F_02| Resumes the Timer |
+|F_03| Restarts the Timer |
+|F_04| Rechedules the Timer |
+|F_05| Deletes the Timer |
+|F_06| Cancels the Timer |
+|F_07| Get Remaining time to expires the Timer |
+|F_08| Display the Timer Details |
