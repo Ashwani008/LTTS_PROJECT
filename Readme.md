@@ -16,10 +16,10 @@ Folder             | Description
 
 ## Contributors List and Summary
 
-SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
+SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Cases Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`267636` | Anthony Rajiv Francis  | F_01, F_02, F_03, F_04, F_05, F_06, F_07, F_08   | 14     | 7   |13  |13
-`271502` | Ashwani Kumar Dubey  | F_01, F_02, F_03, F_04, F_05, F_06, F_07, F_08   | 14     | 7   |13  |13  
+`267636` | Anthony Rajiv Francis  | F_01, F_02, F_03, F_04, F_05, F_06, F_07, F_08   | 14     | 7   |10 |10
+`271502` | Ashwani Kumar Dubey  | F_01, F_02, F_03, F_04, F_05, F_06, F_07, F_08   | 14     | 7   |10  |10
    
 
 | Feature Id | Feature |
