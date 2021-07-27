@@ -12,7 +12,7 @@ Folder             | Description
 `3_Implementation` | All code and documentation
 `4_Testing`      | Documents with test plans and procedures
 `5_Report`      | Document with the Report
-`4_Future_Implementation` | Documents with future research and code - we are implementing the Routing Table
+`6_Future_Implementation` | Documents with future research and code - we are implementing the Routing Table
 
 ## Contributors List and Summary
 
